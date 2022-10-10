@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run tests
-      run: 'echo "my markdown output"
+      run: 'echo "my markdown output"'
   build:
     permissions:
       id-token: write # This is required for requesting the JWT
